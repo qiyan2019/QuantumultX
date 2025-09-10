@@ -3,108 +3,108 @@
 # UPDATED: 2025-06-15
 
 # > Ai general rules
-DOMAIN,api.statsig.com
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,wp.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
+HOST,api.statsig.com
+HOST,browser-intake-datadoghq.com
+HOST,static.cloudflareinsights.com
+HOST-SUFFIX,algolia.net
+HOST-SUFFIX,auth0.com
+HOST-SUFFIX,cloudflare.com
+HOST-SUFFIX,arkoselabs.com
+HOST-SUFFIX,statsigapi.net
+HOST-SUFFIX,featuregates.org
+HOST-SUFFIX,identrust.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST-SUFFIX,launchdarkly.com
+HOST-SUFFIX,segment.io
+HOST-SUFFIX,amazonaws.com
+HOST-SUFFIX,wp.com
+HOST-SUFFIX,sentry.io
+HOST-SUFFIX,stripe.com
 
 # > Apple AI
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.apple.com
+HOST-SUFFIX,apple-relay.cloudflare.com
+HOST-SUFFIX,apple-relay.apple.com
   
 # > Anthropic/Claude
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
+HOST,cdn.usefathom.com
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+HOST-SUFFIX,claudeusercontent.com
 
 # > Cursor
-DOMAIN-SUFFIX,cursor.sh
+HOST-SUFFIX,cursor.sh
 
 # > Dify AI
-DOMAIN-SUFFIX,dify.ai
+HOST-SUFFIX,dify.ai
 
 # > Google AI (Gemini/Bard)
-DOMAIN,ai.google.dev
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,clients6.google.com
-DOMAIN-SUFFIX,clients4.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,colab.google.com
-DOMAIN-SUFFIX,colab.research.google.com
-DOMAIN-SUFFIX,developerprofiles.google.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+HOST,ai.google.dev
+HOST,makersuite.google.com
+HOST-SUFFIX,gemini.google.com
+HOST-SUFFIX,apis.google.com
+HOST-SUFFIX,clients6.google.com
+HOST-SUFFIX,clients4.google.com
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+HOST-SUFFIX,generativeai.google
+HOST-SUFFIX,colab.google.com
+HOST-SUFFIX,colab.research.google.com
+HOST-SUFFIX,developerprofiles.google.com
+HOST-SUFFIX,googleusercontent.com
+HOST-SUFFIX,proactivebackend-pa.googleapis.com
 
 # > JetBrains AI
-DOMAIN-SUFFIX,grazie.ai
+HOST-SUFFIX,grazie.ai
   
 # > Meta
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
+HOST-SUFFIX,meta.ai
+HOST-SUFFIX,meta.com
 
 # > Microsoft Copilot
-DOMAIN,api.msn.com
-DOMAIN,assets.msn.com
-DOMAIN,copilot.microsoft.com
-DOMAIN,gateway.bingviz.microsoft.net
-DOMAIN,gateway.bingviz.microsoftapp.net
-DOMAIN,in.appcenter.ms
-DOMAIN,location.microsoft.com
-DOMAIN,odc.officeapps.live.com
-DOMAIN,r.bing.com
-DOMAIN,self.events.data.microsoft.com
-DOMAIN,services.bingapis.com
-DOMAIN,sydney.bing.com
-DOMAIN,www.bing.com
-DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
-DOMAIN-SUFFIX,edgeservices.bing.com
+HOST,api.msn.com
+HOST,assets.msn.com
+HOST,copilot.microsoft.com
+HOST,gateway.bingviz.microsoft.net
+HOST,gateway.bingviz.microsoftapp.net
+HOST,in.appcenter.ms
+HOST,location.microsoft.com
+HOST,odc.officeapps.live.com
+HOST,r.bing.com
+HOST,self.events.data.microsoft.com
+HOST,services.bingapis.com
+HOST,sydney.bing.com
+HOST,www.bing.com
+HOST-SUFFIX,api.microsoftapp.net
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io
+HOST-SUFFIX,edgeservices.bing.com
 
 # > Midjourney
-DOMAIN-SUFFIX,midjourney.com
+HOST-SUFFIX,midjourney.com
 
 # > OpenAI/ChatGPT
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,azureedge.net
-DOMAIN-SUFFIX,imgix.net
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+HOST,openaicomproductionae4b.blob.core.windows.net
+HOST,production-openaicom-storage.azureedge.net
+HOST-SUFFIX,ai.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,livekit.cloud
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,azureedge.net
+HOST-SUFFIX,imgix.net
 
 # > Perplexity
-DOMAIN,pplx-res.cloudinary.com
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,pplx.ai
-DOMAIN-SUFFIX,perplexity.com
+HOST,pplx-res.cloudinary.com
+HOST-SUFFIX,perplexity.ai
+HOST-SUFFIX,pplx.ai
+HOST-SUFFIX,perplexity.com
 
 # > Poe
-DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,poecdn.net
+HOST-SUFFIX,poe.com
+HOST-SUFFIX,poecdn.net
 
 # > xAI/Grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
+HOST-SUFFIX,x.ai
+HOST-SUFFIX,grok.com
